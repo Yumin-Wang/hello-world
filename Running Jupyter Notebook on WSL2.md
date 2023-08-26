@@ -24,4 +24,6 @@
   - find where `conda` is installed. Use `pwd` to find present working directory. Usually it's at `/home/YourWSLUserName/anaconda3/bin` if you didn't change any setup. for example `/home/yumin/anaconda3/bin`. 
   - add `export PATH=$PATH:/home/yumin/anaconda3/bin` to your `~/.bashrc` file by nano `~/.bashrc`.
 
+  - add `export PATH=$PATH:/home/yumin/mambaforge/bin` to your `~/.bashrc` file by nano `~/.bashrc`. to enable mamba in mambaforge
+
 Reference: [http://mcb112.org/w00/w00-section.html](http://mcb112.org/w00/w00-section.html)
