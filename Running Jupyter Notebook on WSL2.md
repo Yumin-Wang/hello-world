@@ -4,8 +4,8 @@
 
 2. Folders and Files can be accessed at: `\\wsl$`
 
-3. use powershell type wsl -l -v to check ubuntu versions
-   if ubuntu version is 2, change to 1 if you would like to use vpn and use ubuntu as a terminal by following code wsl --set-version Ubuntu 1
+3. use powershell type `wsl -l -v` to check ubuntu versions
+   if ubuntu version is 2, change to 1 if you would like to use vpn and use ubuntu as a terminal by following code `wsl --set-version Ubuntu 1`
    
 5. Download Anaconda Distribution via:
 	```
