@@ -1,10 +1,11 @@
 # Running Jupyter Notebook on WSL2
 
-1. First set up WSL2 and download Ubuntu distribution following steps on: https://docs.microsoft.com/en-us/windows/wsl/install 
+1. First set up WSL2 and download Ubuntu distribution following steps on: https://docs.microsoft.com/en-us/windows/wsl/install
+   `wsl --install` 
 
-2. Folders and Files can be accessed at: `\\wsl$`
+3. Folders and Files can be accessed at: `\\wsl$`
 
-3. use powershell type `wsl -l -v` to check ubuntu versions
+4. use powershell type `wsl -l -v` to check ubuntu versions
    if ubuntu version is 2, change to 1 if you would like to use vpn and use ubuntu as a terminal by following code `wsl --set-version Ubuntu 1`
    
 5. Download Anaconda Distribution via:
